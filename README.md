@@ -44,8 +44,8 @@ app.post('/users', bodyValidateUsingModel('users'), users.create)
 
 ### Validations
 
-- required
-- unique
+- [required](#required)
+- [unique](#unique)
 
 #### required
 
