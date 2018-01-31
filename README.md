@@ -41,3 +41,51 @@ To use the middleware validation, just add it to route like below
 const bodyValidateUsingModel = require('express-body-validate')
 app.post('/users', bodyValidateUsingModel('users'), users.create)
 ```
+
+### Validations
+
+- required
+- unique
+
+#### required
+
+```http
+POST /users
+```
+
+```json
+// 400 Bad Request
+
+// body response
+{
+    "errors": [
+        "firstname is required",
+        "lastname is required",
+        "email is required"
+    ]
+}
+```
+
+#### unique
+
+```json
+// POST /users
+
+// body request
+{
+    "firstname": "john",
+    "lastname": "stark",
+    "email": "johnsnow@gmail.com"
+}
+```
+
+```json
+// 400 Bad Request
+
+// body response
+{
+    "errors": [
+        "email already used (darlanmendonca@gmail.com)"
+    ]
+}
+```
