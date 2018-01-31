@@ -15,5 +15,8 @@
     "validation"
   ],
   "author": "Darlan Mendonça <darlanmendonca@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.0.2"
+  }
 }
