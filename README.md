@@ -40,4 +40,4 @@ To use the middleware validation, just add it to route like below
 ```js
 const bodyValidateUsingModel = require('express-body-validate')
 app.post('/users', bodyValidateUsingModel('users'), users.create)
-``` 
+```
