@@ -32,9 +32,6 @@ Below you can see a typical `POST` route to `/users` using a method in external 
 const app = require('express')()
 const users = require('./users.controller.js')
 
-// require module
-const bodyValidate = require('express-body-validate')
-
 app.post('/users', users.create)
 ```
 
