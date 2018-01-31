@@ -1,11 +1,11 @@
-### express-body-validate
+## express-body-validate
 
 express middleware to validate body request, using mongoose schemes
 
 ### install
 
 ```sh
-npm i express-body-validate
+npm install express-body-validate
 ```
 
 ### usage
