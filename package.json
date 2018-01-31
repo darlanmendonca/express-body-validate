@@ -1,12 +1,19 @@
 {
   "name": "express-body-validate",
   "version": "1.0.0",
-  "description": "",
+  "description": "express middleware to validate body request, using mongoose schemes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "express",
+    "express.js",
+    "middleware",
+    "mongoose",
+    "scheme",
+    "validation"
+  ],
   "author": "Darlan Mendonça <darlanmendonca@gmail.com>",
   "license": "MIT"
 }
